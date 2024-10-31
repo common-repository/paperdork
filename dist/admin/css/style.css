@@ -1,0 +1,103 @@
+/*
+
+    Astra by Roefja Admin Metabox Stylesheet 
+
+    Do not make any changes to this file, all core files are in version control, and will be overwritten on every update
+
+    author: Roefja
+    email: info@roefja.com
+    website: www.roefja.com
+
+    © 2021 - All rights reserved
+
+*/
+
+:root {
+    --danger-color: #a00;
+    --danger-color2: #dc3232;
+}
+
+.roefja-media-uploader .content-box {
+    display: flex;
+    margin: 5px 0;
+}
+
+.roefja-media-uploader .buttons-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.roefja-media-uploader .buttons-block>input {
+    margin: 5px 0;
+}
+
+.roefja-media-uploader .buttons-block>input.danger {
+    color: var(--danger-color);
+    border-color: var(--danger-color);
+}
+
+.roefja-media-uploader .buttons-block>input.danger:hover {
+    color: var(--danger-color2);
+    border-color: var(--danger-color2);
+}
+
+.roefja-media-uploader .content-box .preview-block {
+    width: 125px;
+    display: flex;
+}
+
+.roefja-media-uploader .content-box .preview-block img,
+.roefja-media-uploader .content-box .preview-block input {
+    width: 125px;
+    height: 100%;
+}
+
+.roefja-media-uploader .content-box .preview-block input {
+    display: inline-block;
+    margin: auto;
+}
+
+.status_option {
+    margin: 10px 0;
+}
+
+.payment_options {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.payment_options .payment_gateway {
+    width: 33%;
+}
+
+.payment_options:not(.show) {
+    display: none;
+}
+
+.payment_options input:not(:first-child) {
+    margin-left: 10px;
+}
+
+.woocommerce_page_paperdork select,
+.woocommerce_page_paperdork input[type=text],
+.woocommerce_page_paperdork input[type=number] {
+    min-width: 200px;
+}
+
+.button.danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.button.danger:hover {
+    color: #bb2d3b;
+    border-color: #bb2d3b;
+}
+
+
+.paperdork-disclaimer {
+    padding: 20px 10px;
+}

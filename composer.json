@@ -1,0 +1,22 @@
+{
+    "name": "roefja/paperdork-connector",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Roefja",
+            "email": "developer@roefja.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+        "league/oauth2-client": "^2.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        },
+        "platform": {
+            "php": "7.2"
+        }
+    }
+}
